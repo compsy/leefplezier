@@ -1,0 +1,13 @@
+{
+  "name": "Leefplezier",
+  "description": "Leefplezier research page",
+  "version": "0.0.1",
+  "homepage": "frbl.github.io",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-mocks": "~1.2.x",
+    "bootstrap": "~3.1.1",
+    "angular-route": "~1.2.x"
+  }
+}

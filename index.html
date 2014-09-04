@@ -1,5 +1,18 @@
-<html>
-<body>
-Leefplezier Test page
-</body>
+<!DOCYPE html>
+<html ng-app='leefplezier'>
+  <head>
+    <title>Hello React</title>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="scripts/app.js"></script>
+    <!-- Controllers -->
+    <script src="scripts/controllers/publication_controller.js"></script>
+    <script src="scripts/controllers/news_controller.js"></script>
+  </head>
+  <body>
+    <div id="content">
+      <div ng-include src="'views/partials/links.html'"></div>
+      <div ng-view></div>
+    </div>
+  </body>
 </html>
