@@ -1,7 +1,8 @@
 <!DOCYPE html>
 <html ng-app='leefplezier'>
   <head>
-    <title>Hello React</title>
+    <title>Leefplezier</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="scripts/app.js"></script>
@@ -10,10 +11,21 @@
     <script src="scripts/controllers/news_controller.js"></script>
   </head>
   <body>
+                <div ng-include src="'views/partials/links.html'"></div>
     <div id="content">
-      <img src="images/header.png">
-      <div ng-include src="'views/partials/links.html'"></div>
-      <div ng-view></div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-offset-1">
+            <img src="images/header.png">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-offset-1"
+
+            <div ng-view></div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
