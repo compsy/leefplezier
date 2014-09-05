@@ -12,6 +12,9 @@ leefplezierApp.config(['$routeProvider',
       controller:'PublicationCtrl',
       templateUrl:'views/publication-list.html'
     })
+    .when('/contact', {
+      templateUrl:'views/contact.html'
+    })
     .otherwise({
       redirectTo:'/',
       templateUrl:'views/information.html'
