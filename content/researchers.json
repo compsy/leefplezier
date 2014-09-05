@@ -1,0 +1,45 @@
+[
+  {
+    "name":"Frank Blaauw",
+    "image":"frank_portrait.png",
+    "function":"PhD Candidate",
+    "email":"",
+    "site":"MePa"
+  },
+  {
+    "name":"Bertus Jeronimus",
+    "image":"bertus_portrait.png",
+    "function":"Post-doc",
+    "email":"",
+    "site":"MePa"
+  },
+  {
+    "name":"Peter de Jonge",
+    "image":"peter_portrait.png",
+    "function":"Professor",
+    "email":"",
+    "site":"MePa"
+  },
+  {
+    "name":"Lian van der Krieke",
+    "image":"lian-groen.png",
+    "function":"Post-doc",
+    "email":"",
+    "site":"MePa"
+  },
+  {
+    "name":"Maria Schenk",
+    "image":"maria_portrait.png",
+    "function":"PhD Candidate",
+    "email":"",
+    "site":"MePa"
+  },
+  {
+    "name":"Ando Emerencia",
+    "image":"ando_portrait.png",
+    "function":"Post-doc",
+    "email":"",
+    "site":"MePa"
+  }
+  
+]

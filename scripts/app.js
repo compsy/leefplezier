@@ -15,6 +15,10 @@ leefplezierApp.config(['$routeProvider',
     .when('/contact', {
       templateUrl:'views/contact.html'
     })
+    .when('/researchers', {
+      controller:'ResearcherCtrl',
+      templateUrl:'views/researcher-list.html'
+    })
     .otherwise({
       redirectTo:'/',
       templateUrl:'views/information.html'

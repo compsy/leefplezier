@@ -1,0 +1,12 @@
+<h1>Researchers</h1>
+ <div ng-repeat="researcher in researchers" class="col-md-{{distribution}} col-sm-{{distribution}}">
+  <ul class="list-unstyled">
+    <div class="well">
+      <li><img src="images/portrait.png" width="75%" class="hidden-xs"></li>
+      <li><strong>{{researcher.name}}</strong></li>
+      <li>{{researcher.function}}</li>
+      <li>{{researcher.email}}</li>
+      <li>{{researcher.site}}</li>
+    </div>
+  </ul>
+</div>
