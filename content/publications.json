@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "title": "Leefplezier: Personalized well-being",
+    "year": 2014,
+    "authors": "Blaauw, F. J., Van der Krieke, J. A. J., Aiello, M., De Jonge, P.",
+    "abstract": "Each person is different and should be treated as such. Comparing personal data to group averages can give basic ideas about personal conditions, but does not suffice for providing `true' personalized feedback. In health psychology, a paradigm shift is taking place from a general population approach towards a more person-centered one. Instead of comparing a person with population averages, the focus shifts towards comparing a person with themselves over time. ",
+    "journal": "Doctoral Consortium of the IEEE International Conference on Healthcare Informatics 2014 (ICHI 2014), Verona, Italy",
+    "thumb":"leefplz.png",
+    "type":"workshop",
+    "status":"To appear"
+  }
+]
