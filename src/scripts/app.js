@@ -29,7 +29,9 @@ leefplezierApp.config(['$routeProvider',
     // $locationProvider.hashPrefix('!');
 }]);
 
-$('.nav a').on('click', function(){
-    $(".navbar-toggle").click() //bootstrap 3.x by Richard
+// Hide the navigation menu when it is clicked
+$(document).ready(function(){
+  $('body').on('click', '.nav a', function () {
+      $(".navbar-toggle").click()
+  });
 });
- 
