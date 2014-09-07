@@ -28,10 +28,3 @@ leefplezierApp.config(['$routeProvider',
     // $locationProvider.html5Mode(true);
     // $locationProvider.hashPrefix('!');
 }]);
-
-// Hide the navigation menu when it is clicked
-$(document).ready(function(){
-  $('body').on('click', '.nav a', function () {
-      $(".navbar-toggle").click()
-  });
-});
