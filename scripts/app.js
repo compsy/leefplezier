@@ -1,8 +1,8 @@
 var leefplezierApp = angular.module('leefplezier', ['ngRoute', 'leefplezierControllers']);
 var leefplezierControllers = angular.module('leefplezierControllers', []);
 
-leefplezierApp.config(['$routeProvider', '$locationProvider', 
-  function($routeProvider, $locationProvider) {
+leefplezierApp.config(['$routeProvider', 
+  function($routeProvider) {
   $routeProvider
     .when('/news', {
       controller:'NewsCtrl',
@@ -25,7 +25,7 @@ leefplezierApp.config(['$routeProvider', '$locationProvider',
     });
     
     // enable html5Mode for pushstate ('#'-less URLs)
-    $locationProvider.html5Mode(true);
-    $locationProvider.hashPrefix('!');
+    // $locationProvider.html5Mode(true);
+    // $locationProvider.hashPrefix('!');
 }]);
  
