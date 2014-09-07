@@ -28,4 +28,8 @@ leefplezierApp.config(['$routeProvider', '$locationProvider',
     $locationProvider.html5Mode(true);
     $locationProvider.hashPrefix('!');
 }]);
+
+$('.nav a').on('click', function(){
+    $(".navbar-toggle").click() //bootstrap 3.x by Richard
+});
  
