@@ -2,6 +2,11 @@ $color-orange: #e6673d;
 $color-purple: #9f60b9;
 $color-light-black: #252828;
 
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  filter: alpha(opacity=$opacity * 100); /* For IE8 and earlier */
+}
+
 @font-face{font-family:'Geogrotesque';src:url('/fonts/24A377_4_0.eot');src:url('/fonts/24A377_4_0.eot?#iefix') format('embedded-opentype'),url('/fonts/24A377_4_0.woff') format('woff'),url('/fonts/24A377_4_0.ttf') format('truetype');font-weight:100}
 @font-face{font-family:'Geogrotesque';src:url('/fonts/24A377_0_0.eot');src:url('/fonts/24A377_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/24A377_0_0.woff') format('woff'),url('/fonts/24A377_0_0.ttf') format('truetype');font-weight:200}
 @font-face{font-family:'Geogrotesque';src:url('/fonts/24A377_1_0.eot');src:url('/fonts/24A377_1_0.eot?#iefix') format('embedded-opentype'),url('/fonts/24A377_1_0.woff') format('woff'),url('/fonts/24A377_1_0.ttf') format('truetype');font-weight:400}
@@ -23,4 +28,7 @@ h5{font-size:14px;color:$color-light-black;font-weight:700}
 h6{font-size:14px;color:$color-orange;font-weight:700}
 
 header {background-color:$color-orange;}
-footer {position:fixed;text-align:center;left:0px;bottom:10px;width:100%;}
+footer {background-color:$color-orange;color:white;position:fixed;text-align:center;left:0px;right:0px;bottom:0px;@include opacity(0.8)}
+footer img{max-height:30px;}
+footer .title{font-weight:700}
+footer .subtitle{font-weight:200}
