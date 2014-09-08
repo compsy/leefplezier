@@ -74,7 +74,7 @@
           console.log(document);
           console.log($(document));
           console.log($(document.body));
-          console.log($(document).find('body'));
+          console.log($(document).find('body')[0]);
           console.log(document.body);
           console.log(document.body.appendChild);
           document.body.appendChild(n);
