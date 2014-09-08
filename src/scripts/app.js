@@ -72,7 +72,6 @@ $(function(){
         break;
       case"3D":
         if (q) {
-          console.log(document.html.body);
           document.body.appendChild(n);
           n.style[j] = "translate3d(1px,1px,1px)";
           m = e.getComputedStyle(n).getPropertyValue(r);
