@@ -13,11 +13,8 @@ $color-light-black: #252828;
 @font-face{font-family:'Geogrotesque';src:url('fonts/24A377_2_0.eot');src:url('fonts/24A377_2_0.eot?#iefix') format('embedded-opentype'),url('fonts/24A377_2_0.woff') format('woff'),url('fonts/24A377_2_0.ttf') format('truetype');font-weight:500}
 @font-face{font-family:'Geogrotesque';src:url('fonts/24A377_3_0.eot');src:url('fonts/24A377_3_0.eot?#iefix') format('embedded-opentype'),url('fonts/24A377_3_0.woff') format('woff'),url('fonts/24A377_3_0.ttf') format('truetype');font-weight:700}
 @font-face{font-family:'Geogrotesque';src:url('fonts/24A377_3_0.eot');src:url('fonts/24A377_3_0.eot?#iefix') format('embedded-opentype'),url('fonts/24A377_3_0.woff') format('woff'),url('fonts/24A377_3_0.ttf') format('truetype');font-weight:bold}
-html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
-html{font-size:62.5%;-webkit-tap-highlight-color:rgba(0,0,0,0)}
-html{text-rendering:optimizeLegibility!important;-webkit-font-smoothing:antialiased!important}
-body{font-family:"Geogrotesque",sans-serif;font-size:16px;line-height:1.428571429;color:#252828;background-color:#fff}
-body{font-family:"Geogrotesque",sans-serif;font-size:16px;color:#252828;line-height:1.4;margin:0}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-size:62.5%;-webkit-tap-highlight-color:rgba(0,0,0,0);text-rendering:optimizeLegibility!important;-webkit-font-smoothing:antialiased!important}
+body{font-family:"Geogrotesque",sans-serif;font-size:16px;line-height:1.4;color:#252828;background-color:#fff;margin:0;transform:translate3d(0,0,0);transform-style:preserve-3d;backface-visibility:hidden}
 
 p{font-size:16px;line-height:140%;padding-bottom:20px;margin:0}
 h1{font-size:40px;color:$color-orange;font-weight:700;line-height:1}
