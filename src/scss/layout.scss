@@ -25,7 +25,7 @@ h5{font-size:14px;color:$color-light-black;font-weight:700}
 h6{font-size:14px;color:$color-orange;font-weight:700}
 
 header {background-color:$color-orange;}
-footer {background-color:$color-orange;color:white;position:fixed;text-align:center;left:0px;right:0px;bottom:0px;@include opacity(0.8)}
+footer {background-color:$color-orange;color:white;position:fixed;text-align:center;left:0px;right:0px;bottom:0px;padding:10px 0 10px;@include opacity(0.8)}
 footer img{max-height:30px;}
 footer .title{font-weight:700}
 footer .subtitle{font-weight:200}
