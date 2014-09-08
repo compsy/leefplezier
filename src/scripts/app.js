@@ -315,6 +315,7 @@ $(function(){
     })
   }
 })(window.jQuery || window.Zepto, window, document);
+});
 
 
 
@@ -348,4 +349,3 @@ leefplezierApp.config(['$routeProvider',
     // $locationProvider.html5Mode(true);
     // $locationProvider.hashPrefix('!');
 }]);
-});
