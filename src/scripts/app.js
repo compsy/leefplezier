@@ -72,6 +72,9 @@
       case"3D":
         if (q) {
           console.log(document);
+          console.log($(document));
+          console.log($(document.body));
+          console.log($(document).find('body'));
           console.log(document.body);
           console.log(document.body.appendChild);
           document.body.appendChild(n);
