@@ -71,11 +71,11 @@
         break;
       case"3D":
         if (q) {
-          f.body.appendChild(n);
+          document.body.appendChild(n);
           n.style[j] = "translate3d(1px,1px,1px)";
           m = e.getComputedStyle(n).getPropertyValue(r);
           p = m !== b && m.length > 0 && m !== "none";
-          f.body.removeChild(n)
+          document.body.removeChild(n)
         }
         break
     }
