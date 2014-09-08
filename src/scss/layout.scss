@@ -25,7 +25,13 @@ h5{font-size:14px;color:$color-light-black;font-weight:700}
 h6{font-size:14px;color:$color-orange;font-weight:700}
 
 header {background-color:$color-orange;}
-footer {background-color:$color-orange;color:white;position:fixed;text-align:center;left:0px;right:0px;bottom:0px;padding:5px 0 10px;}
+footer {background-color:$color-orange;color:white;position:fixed;text-align:center;left:0px;right:0px;bottom:0px;padding:5px 0 5px;}
 footer img{max-height:25px;}
 footer .title{font-weight:700}
 footer .subtitle{font-weight:200}
+#content{padding-bottom:30px;}
+
+.information-button {padding-top:10px;}
+ul.researcher-info > li{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+
+img.portrait {max-width: 110px;}
