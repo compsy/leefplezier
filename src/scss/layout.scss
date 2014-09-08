@@ -7,12 +7,12 @@ $color-light-black: #252828;
   filter: alpha(opacity=$opacity * 100); /* For IE8 and earlier */
 }
 
-@font-face{font-family:'Geogrotesque';src:url('/fonts/24A377_4_0.eot');src:url('/fonts/24A377_4_0.eot?#iefix') format('embedded-opentype'),url('/fonts/24A377_4_0.woff') format('woff'),url('/fonts/24A377_4_0.ttf') format('truetype');font-weight:100}
-@font-face{font-family:'Geogrotesque';src:url('/fonts/24A377_0_0.eot');src:url('/fonts/24A377_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/24A377_0_0.woff') format('woff'),url('/fonts/24A377_0_0.ttf') format('truetype');font-weight:200}
-@font-face{font-family:'Geogrotesque';src:url('/fonts/24A377_1_0.eot');src:url('/fonts/24A377_1_0.eot?#iefix') format('embedded-opentype'),url('/fonts/24A377_1_0.woff') format('woff'),url('/fonts/24A377_1_0.ttf') format('truetype');font-weight:400}
-@font-face{font-family:'Geogrotesque';src:url('/fonts/24A377_2_0.eot');src:url('/fonts/24A377_2_0.eot?#iefix') format('embedded-opentype'),url('/fonts/24A377_2_0.woff') format('woff'),url('/fonts/24A377_2_0.ttf') format('truetype');font-weight:500}
-@font-face{font-family:'Geogrotesque';src:url('/fonts/24A377_3_0.eot');src:url('/fonts/24A377_3_0.eot?#iefix') format('embedded-opentype'),url('/fonts/24A377_3_0.woff') format('woff'),url('/fonts/24A377_3_0.ttf') format('truetype');font-weight:700}
-@font-face{font-family:'Geogrotesque';src:url('/fonts/24A377_3_0.eot');src:url('/fonts/24A377_3_0.eot?#iefix') format('embedded-opentype'),url('/fonts/24A377_3_0.woff') format('woff'),url('/fonts/24A377_3_0.ttf') format('truetype');font-weight:bold}
+@font-face{font-family:'Geogrotesque';src:url('fonts/24A377_4_0.eot');src:url('fonts/24A377_4_0.eot?#iefix') format('embedded-opentype'),url('fonts/24A377_4_0.woff') format('woff'),url('fonts/24A377_4_0.ttf') format('truetype');font-weight:100}
+@font-face{font-family:'Geogrotesque';src:url('fonts/24A377_0_0.eot');src:url('fonts/24A377_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/24A377_0_0.woff') format('woff'),url('fonts/24A377_0_0.ttf') format('truetype');font-weight:200}
+@font-face{font-family:'Geogrotesque';src:url('fonts/24A377_1_0.eot');src:url('fonts/24A377_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/24A377_1_0.woff') format('woff'),url('fonts/24A377_1_0.ttf') format('truetype');font-weight:400}
+@font-face{font-family:'Geogrotesque';src:url('fonts/24A377_2_0.eot');src:url('fonts/24A377_2_0.eot?#iefix') format('embedded-opentype'),url('fonts/24A377_2_0.woff') format('woff'),url('fonts/24A377_2_0.ttf') format('truetype');font-weight:500}
+@font-face{font-family:'Geogrotesque';src:url('fonts/24A377_3_0.eot');src:url('fonts/24A377_3_0.eot?#iefix') format('embedded-opentype'),url('fonts/24A377_3_0.woff') format('woff'),url('fonts/24A377_3_0.ttf') format('truetype');font-weight:700}
+@font-face{font-family:'Geogrotesque';src:url('fonts/24A377_3_0.eot');src:url('fonts/24A377_3_0.eot?#iefix') format('embedded-opentype'),url('fonts/24A377_3_0.woff') format('woff'),url('fonts/24A377_3_0.ttf') format('truetype');font-weight:bold}
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 html{font-size:62.5%;-webkit-tap-highlight-color:rgba(0,0,0,0)}
 html{text-rendering:optimizeLegibility!important;-webkit-font-smoothing:antialiased!important}
