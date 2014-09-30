@@ -25,8 +25,8 @@ leefplezierApp.config(['$routeProvider',
     });
     
     // enable html5Mode for pushstate ('#'-less URLs)
-    // $locationProvider.html5Mode(true);
-    // $locationProvider.hashPrefix('!');
+    $locationProvider.html5Mode(true);
+    $locationProvider.hashPrefix('!');
 }]);
 
 function MainCtrl($scope) {
